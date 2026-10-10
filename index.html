@@ -5,14 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Darkprint</title>
 <meta name="description" content="A retro photo and video editor for iPhone. Support and privacy policy.">
+<link rel="icon" type="image/png" href="images/icon.png">
+<link rel="icon" type="image/png" href="images/icon-dark.png" media="(prefers-color-scheme: dark)">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main>
-<header><a class="brand" href="./"><span class="mark"></span>Darkprint</a></header>
+<main class="landing">
+<div class="hero">
+  <picture>
+    <source srcset="images/icon-dark.png" media="(prefers-color-scheme: dark)">
+    <img src="images/icon.png" width="112" height="112" alt="">
+  </picture>
+  <span class="name">Darkprint</span>
+</div>
 <h1>Film looks for the photos you already have.</h1>
 <p class="lead">Darkprint is a retro photo and video editor for iPhone. It never runs the camera: pick pictures and videos you've already taken, develop them through a film, instant, disposable, digital, tape or cine look, and save a new copy to Photos. Your originals are never changed.</p>
-<div class="links">
+<div class="group">
   <a href="support/">Support</a>
   <a href="privacy/">Privacy Policy</a>
 </div>
